@@ -133,7 +133,6 @@ a {
     display: flex;
     gap: 3rem;
     text-decoration: none;
-    color: #ffffff;
     transition: color 0.3s ease;
 }
 
@@ -150,8 +149,6 @@ a {
 
 .logo a {
     color: var(--primaryTextColor);
-    text-decoration: none;
-    font-size: 24px;
 }
 
 nav ul li {
@@ -164,8 +161,8 @@ nav ul li a {
 }
 
 .burger div {
-    width: 30px;
-    height: 3px;
+    width: 25px;
+    height: 2px;
     background-color: #000;
     margin: 7px;
     transition: all 0.3s;
@@ -178,7 +175,6 @@ nav ul li a {
     position: fixed;
     top: 33px;
     right: 35px;
-    cursor: pointer;
 }
 
 #hero {
